@@ -48,7 +48,7 @@ gameOver = () => {
     return (
       <div className="App">
         <Wrapper>
-          <Header score={this.state.score} highscore={this.state.highscore}>Finaly Fantasy 8</Header>
+          <Header score={this.state.score} highscore={this.state.highscore}>Memory Game</Header>
 {this.state.cards.map(card => (
   <Card
     clickCount={this.clickCount}
